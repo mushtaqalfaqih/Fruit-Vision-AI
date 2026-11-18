@@ -1,0 +1,53 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+fruit_classification_env/
+**/fruit_classification_env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Datasets (Large image folders not meant for GitHub storage)
+fruits_data_set/
+Fruit_Vision_Project/dataset/
+Fruit_Vision_Project/dataset_detection/
+Fruit_Vision_Project/yolov5/train/
+Fruit_Vision_Project/yolov5/test/
+Fruit_Vision_Project/yolov5/val/
+Fruit_Vision_Project/yolov5/valid/
+**/yolov5/train/
+**/yolov5/test/
+**/yolov5/val/
+**/yolov5/valid/
+
+# Zip Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Redundant or oversized YOLO train runs and detections (trained weights are saved in /models)
+Fruit_Vision_Project/yolov5/runs/
+**/yolov5/runs/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+scratch/

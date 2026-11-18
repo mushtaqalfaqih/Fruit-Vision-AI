@@ -1,0 +1,5 @@
+train: C:/Users/hp/Desktop/CV/Fruit_Vision_Project/yolov5/../dataset_detection/yolov5/train/images
+val:   C:/Users/hp/Desktop/CV/Fruit_Vision_Project/yolov5/../dataset_detection/yolov5/valid/images
+
+nc: 3
+names: ['Apple', 'Banana', 'Orange']

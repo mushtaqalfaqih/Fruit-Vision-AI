@@ -1,0 +1,22 @@
+# مسارات الصور لكل مرحلة
+train: dataset_detection/train/images
+val: dataset_detection/val/images
+test: dataset_detection/test/images
+
+# عدد الفئات
+nc: 3  # عدل هذا الرقم حسب عدد الفئات لديك فعليًا
+
+# أسماء الفئات (عدل حسب Dataset لديك)
+names: [
+  'Apple-Fresh', 'Apple-Rotten',
+  'Banana-Fresh', 'Banana-Rotten',
+  'Orange-Fresh', 'Orange-Rotten',
+  'Tomato-Fresh', 'Tomato-Rotten',
+  'Potato-Fresh', 'Potato-Rotten',
+  'Carrot-Fresh', 'Carrot-Rotten',
+  'Cucumber-Fresh', 'Cucumber-Rotten',
+  'Grape-Fresh', 'Grape-Rotten',
+  'Guava-Fresh', 'Guava-Rotten',
+  'Pomegranate-Fresh', 'Pomegranate-Rotten',
+  'Jujube-Fresh', 'Jujube-Rotten'
+]
